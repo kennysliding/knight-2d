@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcgm8oc7kek8r"]
+
+[ext_resource type="AudioStream" uid="uid://bja1vfgyyh235" path="res://assets/PixelPlatformerSet1v.1.1/music/time_for_adventure.mp3" id="1_x0noe"]
+
+[node name="BackgroundMusic" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_x0noe")
+autoplay = true
+bus = &"Music"
